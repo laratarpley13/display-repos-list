@@ -8,7 +8,17 @@
 </head>
 <body>
     <div>
-
+        <h1>Dearch for GitHub Repos by User Handle</h1>
+        <form>
+            <label for="username-search">Search for a GitHub user handle:</label>
+            <input type="text" name="username-search" id="username-search" required>
+            <input type="submit" name="Submit">
+        </form>
+        <section id="results" class="hidden">
+            <h2>Search Results</h2>
+            <ul id="results-list">
+            </ul>
+        </section>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
